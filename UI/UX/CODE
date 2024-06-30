@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(1, 17, 20, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #145ef3;
+        }
+        input[type="number"],
+        input[type="text"],
+        button {
+            padding: 10px;
+            width: 100%;
+            margin-bottom: 20px;
+            border: 1px solid #ef0404;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #f8d50b;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .result {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .result p {
+            margin: 10px 0;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+
+# Backend Code
+
+
+function resetForm() {
+            document.getElementById("converter-form").reset();
+            document.getElementById("result").style.display = "none";
+        }
+    </script>
+</body>
+</html>
